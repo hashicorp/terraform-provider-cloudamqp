@@ -14,13 +14,13 @@ func Provider() *schema.Provider {
 	log.Printf("Terraform-Provider-CloudAMQP Version: %s", version)
 	return &schema.Provider{
 		Schema: map[string]*schema.Schema{
-			"apikey": &schema.Schema{
+			"apikey": {
 				Type:        schema.TypeString,
 				Required:    true,
 				DefaultFunc: schema.EnvDefaultFunc("CLOUDAMQP_APIKEY", nil),
 				Description: "Key used to authentication to the CloudAMQP Customer API",
 			},
-			"baseurl": &schema.Schema{
+			"baseurl": {
 				Type:        schema.TypeString,
 				Default:     "https://customer.cloudamqp.com",
 				Optional:    true,
