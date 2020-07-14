@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/cloudamqp/terraform-provider-cloudamqp/cloudamqp"
+	"github.com/terraform-providers/terraform-provider-cloudamqp/cloudamqp"
 	"github.com/hashicorp/terraform-plugin-sdk/plugin"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 )

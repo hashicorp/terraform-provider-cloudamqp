@@ -1,4 +1,4 @@
-module github.com/cloudamqp/terraform-provider-cloudamqp
+module github.com/terraform-providers/terraform-provider-cloudamqp
 
 go 1.12
 
