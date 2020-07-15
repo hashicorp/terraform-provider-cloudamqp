@@ -1,5 +1,4 @@
 .terraform/
-terraform.*
 terraform-provider-cloudamqp*
 .idea/
 *.iml
